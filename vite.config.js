@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/advice-generator-app/', // Replace with your GitHub repository name
+  base: '/Advice-Generator-Api/', // Replace with your GitHub repository name
 
 })
