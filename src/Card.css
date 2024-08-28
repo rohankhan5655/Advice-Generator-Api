@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: Manrope, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  height: auto;
+  flex-direction: column;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 9px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content p {
+  margin-top: 30px;
+  color: hsl(150, 100%, 66%);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.content h5 {
+  margin-top: 15px;
+  width: 270px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+}
+
+.border {
+  margin-top: 15px;
+}
+.border img {
+  width: 260px;
+}
+
+.button {
+  position: relative;
+  top: 20px;
+}
+.button img {
+  width: 15px;
+  padding: none;
+  position: relative;
+  right: 7px;
+  bottom: 7px;
+}
+.button button {
+  border-radius: 50%;
+  border: none;
+  padding: 20px;
+  width: 15px;
+  height: 15px;
+  transition: box-shadow 0.3s ease;
+  background-color: hsl(150, 100%, 66%);
+}
+.button button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px 1px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 330px) {
+  .card {
+    width: 90vw;
+  }
+  .content h5 {
+    width: 80vw;
+    font-size: 12px;
+  }
+  .border img {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=Card.css.map */
